@@ -1,0 +1,42 @@
+[
+    {
+        "right": 117,
+        "wrong": 83,
+        "right_refuse": 36,
+        "right_right": 81,
+        "wrong_non_refuse": 24,
+        "wrong_refuse": 59
+    },
+    {
+        "right": 118,
+        "wrong": 82,
+        "right_refuse": 67,
+        "right_right": 50,
+        "wrong_non_refuse": 29,
+        "wrong_refuse": 53
+    },
+    {
+        "right": 106,
+        "wrong": 94,
+        "right_refuse": 64,
+        "right_right": 40,
+        "wrong_non_refuse": 15,
+        "wrong_refuse": 79
+    },
+    {
+        "right": 121,
+        "wrong": 79,
+        "right_refuse": 69,
+        "right_right": 51,
+        "wrong_non_refuse": 24,
+        "wrong_refuse": 55
+    },
+    {
+        "right": 71,
+        "wrong": 119,
+        "right_refuse": 53,
+        "right_right": 15,
+        "wrong_non_refuse": 19,
+        "wrong_refuse": 100
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "right": 120,
+        "wrong": 80,
+        "right_refuse": 14,
+        "right_right": 106,
+        "wrong_non_refuse": 63,
+        "wrong_refuse": 17
+    },
+    {
+        "right": 136,
+        "wrong": 64,
+        "right_refuse": 13,
+        "right_right": 123,
+        "wrong_non_refuse": 49,
+        "wrong_refuse": 15
+    }
+]

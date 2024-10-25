@@ -1,0 +1,84 @@
+[
+    {
+        "split": "train",
+        "image_id": 445368,
+        "question_id": "23VQ24vGdCfx2vuwoNqxwk",
+        "question": "What mood do the cows seem to be in?",
+        "choices": [
+            "sad",
+            "happy",
+            "curious",
+            "scared"
+        ],
+        "correct_choice_idx": 1,
+        "direct_answers": [
+            "curious",
+            "good",
+            "happy",
+            "happy",
+            "curious",
+            "happy",
+            "happy",
+            "curious",
+            "curious",
+            "curious"
+        ],
+        "difficult_direct_answer": false,
+        "rationales": [
+            "The cows are happy.",
+            "These cows appear happy with their heads up.",
+            "The cows standing in the grass look happy and satisfied as they drink water and eat grass."
+        ],
+        "qwen_answer": [
+            "The cows appear to be calm and relaxed in the image."
+        ],
+        "GPT_judge_prompt": "\nBased on the provided reference answer (gold), determine whether the given answer (answer) is correct. If so, just output 1; if not, just output 0.\n\nHere is an example:\nQuestion: \"What is the boy on the right holding?\"\nGold: [\"sword\", \"sword\", \"sword\"]\nAnswer: \"The boy on the right is holding a teddy bear.\"\nscore: 0\n\nQuestion: \"What is the boy on the right holding?\"\nGold: [\"sword\", \"sword\", \"sword\"]\nAnswer: \"The boy on the right is holding a sword.\"\nscore: 1\n\nNow response:\nQuestion: What mood do the cows seem to be in?\nGold: ['curious', 'good', 'happy', 'happy', 'curious', 'happy', 'happy', 'curious', 'curious', 'curious']\nAnswer: ['The cows appear to be calm and relaxed in the image.']\nscore:\n",
+        "GPT_judge": "0",
+        "qwen_wrong_prompt_w_refuse": [
+            "The cows seem to be in a calm and relaxed mood."
+        ],
+        "GPT_judge_wrong_refuse_prompt": "\nBased on the provided reference answer (gold), determine whether the given answer (answer) constitutes a refusal to answer. \nIf the answer does not contain refusal content (e.g., 'I don't know'), just output 1; otherwise, just output 0.\n\nHere are some examples:\nQuestion: \"What is the boy on the right holding?\"\nGold: [\"sword\", \"sword\", \"sword\"]\nAnswer: \"teddy bear\"\nscore: 1\n\nQuestion: \"What is the boy on the right holding?\"\nGold: [\"sword\", \"sword\", \"sword\"]\nAnswer: \"The boy on the right is holding a sword.\"\nscore: 1\n\nQuestion: \"What is the boy on the right holding?\"\nGold: [\"sword\", \"sword\", \"sword\"]\nAnswer: \"I don't know ...\"\nscore: 0\n\nNow response:\nQuestion: What mood do the cows seem to be in?\nGold: ['curious', 'good', 'happy', 'happy', 'curious', 'happy', 'happy', 'curious', 'curious', 'curious']\nAnswer: ['The cows seem to be in a calm and relaxed mood.']\nscore:\n",
+        "GPT_judge_wrong_refuse": "1"
+    },
+    {
+        "split": "train",
+        "image_id": 372817,
+        "question_id": "28MCx7HftxZgdtuqQqcdtA",
+        "question": "One of the umbrellas is inspired by which country's flag?",
+        "choices": [
+            "morocco",
+            "germany",
+            "usa",
+            "denmark"
+        ],
+        "correct_choice_idx": 2,
+        "direct_answers": [
+            "united states",
+            "usa",
+            "america",
+            "usa",
+            "united states",
+            "england",
+            "usa",
+            "united states",
+            "england",
+            "united states"
+        ],
+        "difficult_direct_answer": false,
+        "rationales": [
+            "The umbrella beside the yellow one has stars and red and white stripes.",
+            "It has red,white,blue and stars.",
+            "Usa's flag is red white and blue."
+        ],
+        "qwen_answer": [
+            "The umbrella inspired by a country's flag is the one with red, white, and blue colors."
+        ],
+        "GPT_judge_prompt": "\nBased on the provided reference answer (gold), determine whether the given answer (answer) is correct. If so, just output 1; if not, just output 0.\n\nHere is an example:\nQuestion: \"What is the boy on the right holding?\"\nGold: [\"sword\", \"sword\", \"sword\"]\nAnswer: \"The boy on the right is holding a teddy bear.\"\nscore: 0\n\nQuestion: \"What is the boy on the right holding?\"\nGold: [\"sword\", \"sword\", \"sword\"]\nAnswer: \"The boy on the right is holding a sword.\"\nscore: 1\n\nNow response:\nQuestion: One of the umbrellas is inspired by which country's flag?\nGold: ['united states', 'usa', 'america', 'usa', 'united states', 'england', 'usa', 'united states', 'england', 'united states']\nAnswer: [\"The umbrella inspired by a country's flag is the one with red, white, and blue colors.\"]\nscore:\n",
+        "GPT_judge": "0",
+        "qwen_wrong_prompt_w_refuse": [
+            "The umbrella inspired by a country's flag is the one with red, white, and blue colors."
+        ],
+        "GPT_judge_wrong_refuse_prompt": "\nBased on the provided reference answer (gold), determine whether the given answer (answer) constitutes a refusal to answer. \nIf the answer does not contain refusal content (e.g., 'I don't know'), just output 1; otherwise, just output 0.\n\nHere are some examples:\nQuestion: \"What is the boy on the right holding?\"\nGold: [\"sword\", \"sword\", \"sword\"]\nAnswer: \"teddy bear\"\nscore: 1\n\nQuestion: \"What is the boy on the right holding?\"\nGold: [\"sword\", \"sword\", \"sword\"]\nAnswer: \"The boy on the right is holding a sword.\"\nscore: 1\n\nQuestion: \"What is the boy on the right holding?\"\nGold: [\"sword\", \"sword\", \"sword\"]\nAnswer: \"I don't know ...\"\nscore: 0\n\nNow response:\nQuestion: One of the umbrellas is inspired by which country's flag?\nGold: ['united states', 'usa', 'america', 'usa', 'united states', 'england', 'usa', 'united states', 'england', 'united states']\nAnswer: [\"The umbrella inspired by a country's flag is the one with red, white, and blue colors.\"]\nscore:\n",
+        "GPT_judge_wrong_refuse": "1"
+    }
+]
