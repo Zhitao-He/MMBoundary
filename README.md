@@ -22,14 +22,14 @@ In recent years, multimodal large language models (MLLMs) have made significant 
 ---
 
 <div align="center">
-<h4>MMBoundary Overview</h4>
+<h3>MMBoundary Overview</h3>
 <img src= "asset/figs/fig.png" width=“90%" alt= "MMBoundary"/>
 </div>
 
 <br>
 
 <div align="center">
-<h4>Experimental Results</h4>
+<h3>Experimental Results</h3>
 <img src="asset/figs/table1.png" width=“90%" alt="Experimental Results"/>
 </div>
 
