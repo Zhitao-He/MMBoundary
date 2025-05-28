@@ -15,7 +15,7 @@
 
 </div>
 
-## 
+<br>
 
 ## News
 
@@ -35,12 +35,16 @@ In recent years, multimodal large language models (MLLMs) have made significant 
 <img src= "asset/figs/fig.png" width=“90%" alt= "MMBoundary"/>
 </div>
 
+The overview of **MMBoundary**, which consists of two stages. The initial stage trains MLLMs via supervised learning to generate natural language confidence statement for each sentence, similar to human expression. The second stage employs reinforcement learning with three intuitively designed reward functions to further calibrate the expressed confidence estimates and enhance knowledge alignment. <span style="color:rgb(150,100,200)">■</span> represents the internal states (i.e., the log probability of tokens) of model and the estimated internal confidence.
+
 <br>
 
 <div align="center">
 <h3>Experimental Results</h3>
 <img src="asset/figs/table1.png" width=“90%" alt="Experimental Results"/>
 </div>
+
+The evaluation results of models and various ablations of our framework. CulturalVQA is the out-of-distribution dataset. **w/o U<sub>LNLP</sub>**, **w/o U<sub>MTE</sub>**, **w/o U<sub>TSAR</sub>**, and **w/o U<sub>CLIPS</sub>** represent MMBoundary without the three text-based uncertainty estimation methods and visual information uncertainty estimation, respectively; **w U<sub>Max</sub>** indicates the confidence determined using the max pooling method from the four uncertainty estimation scores; **w/o S-S<sub>Mapping</sub>** denotes MMBoundary without confidence score-statement mapping; **w/o R<sub>KA</sub>**, **w/o R<sub>EC</sub>**, and **w/o R<sub>CS</sub>** represent MMBoundary without knowledge accuracy reward, expected calibration reward, and confidence self-calibration reward, respectively; **w/o RL** denotes MMBoundary without reinforcement learning.
 
 ---
 
