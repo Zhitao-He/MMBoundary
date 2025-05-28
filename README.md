@@ -157,7 +157,9 @@ run following script to get the normalized confidence score of model:
 
 ```bash
 python code/uncertainty/vlm_uncertainty.py
+```
 
+```bash
 python code/uncertainty/uncertainty_normalize.py
 ```
 
