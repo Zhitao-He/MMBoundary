@@ -97,12 +97,12 @@ culturalvqa_dataset = load_dataset(‘./CulturalVQA')
 
 ## Our annotated data
 
+We first prompt GPT-4o to generate an analysis (reasoning chain) structured at the perception and reasoning levels. Then, we have GPT-4o filter and correct the initially annotated chains. Finally, manual data quality control is conducted to ensure accuracy and reliability.
+
 <div align="center">
 <h3> The Annotation Pipeline. </h3>
 <img src="asset/figs/fig5.png" width=“90%" alt="Experimental Results"/>
 </div>
-
-We first prompt GPT-4o to generate an analysis (reasoning chain) structured at the perception and reasoning levels. Then, we have GPT-4o filter and correct the initially annotated chains. Finally, manual data quality control is conducted to ensure accuracy and reliability.
 
 In the file of annotated data, you will see the following structure:
 
