@@ -97,6 +97,11 @@ culturalvqa_dataset = load_dataset(‘./CulturalVQA')
 
 ## Our annotated data
 
+<div align="center">
+<h3> The Annotation Pipeline. </h3>
+<img src="asset/figs/fig5.png" width=“90%" alt="Experimental Results"/>
+</div>
+
 In the file of annotated data, you will see the following structure:
 
 ```bash
@@ -112,11 +117,6 @@ annotated_data/
 ```
 
 your can also download from our [huggingface repository](https://huggingface.co/datasets/Zhitao-He/MMBoundary) link.
-
-<div align="center">
-<h3> The Annotation Pipeline. </h3>
-<img src="asset/figs/fig5.png" width=“90%" alt="Experimental Results"/>
-</div>
 
 ## Annotate data script
 
