@@ -104,7 +104,8 @@ We first prompt GPT-4o to generate an analysis (reasoning chain) structured at t
 <img src="asset/figs/fig5.png" width=“90%" alt="Experimental Results"/>
 </div>
 
-In the file of annotated data, you will see the following structure:
+
+We provide the annotated data and the script. In the file of annotated data, you will see the following structure:
 
 ```bash
 annotated_data/
