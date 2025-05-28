@@ -35,7 +35,7 @@ In recent years, multimodal large language models (MLLMs) have made significant 
 <img src= "asset/figs/fig.png" width=“90%" alt= "MMBoundary"/>
 </div>
 
-The overview of **MMBoundary**, which consists of two stages. The initial stage trains MLLMs via supervised learning to generate natural language confidence statement for each sentence, similar to human expression. The second stage employs reinforcement learning with three intuitively designed reward functions to further calibrate the expressed confidence estimates and enhance knowledge alignment. <span style="color:#800080">■</span> represents the internal states (i.e., the log probability of tokens) of model and the estimated internal confidence.
+The overview of **MMBoundary**, which consists of two stages. The initial stage trains MLLMs via supervised learning to generate natural language confidence statement for each sentence, similar to human expression. The second stage employs reinforcement learning with three intuitively designed reward functions to further calibrate the expressed confidence estimates and enhance knowledge alignment. `U+1F7E3` represents the internal states (i.e., the log probability of tokens) of model and the estimated internal confidence.
 
 <div align="center">
 <h3>Experimental Results</h3>
