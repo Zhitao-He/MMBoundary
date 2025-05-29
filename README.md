@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-<b><a href="https://scholar.google.com/citations?user=ULvoYXgAAAAJ&hl=zh-CN" target="_blank">Zhitao He</a><sup>1</sup> <a href="https://github.com/Zhitao-He/MMBoundary" target="_blank"> Sandeep Polisetty </a><sup>2</sup> <a href="https://zhiyuan.fan/" target="_blank">Zhiyuan Fan</a><sup>1</sup> <a href="https://lukahhcm.github.io/" target="_blank"> Yuchen Huang </a><sup>1</sup> <a href="https://shujinwu-0814.github.io/" target="_blank"> Shujin Wu </a><sup>3</sup> <a href="https://mayrfung.github.io/" target="_blank">Yi R. (May) Fung</a><sup>1</sup></b>
+<b><a href="https://scholar.google.com/citations?user=ULvoYXgAAAAJ&hl=zh-CN" target="_blank">Zhitao He</a><sup>1</sup> <a href="https://github.com/Zhitao-He/MMBoundary" target="_blank"> Sandeep Polisetty </a><sup>1,2</sup> <a href="https://zhiyuan.fan/" target="_blank">Zhiyuan Fan</a><sup>1</sup> <a href="https://lukahhcm.github.io/" target="_blank"> Yuchen Huang </a><sup>1</sup> <a href="https://shujinwu-0814.github.io/" target="_blank"> Shujin Wu </a><sup>1,3</sup> <a href="https://mayrfung.github.io/" target="_blank">Yi R. (May) Fung</a><sup>1</sup></b>
 
 
 <sup>1 </sup>HKUST &nbsp; <sup>2 </sup> UMass Amherst &nbsp; <sup>3 </sup>USC
