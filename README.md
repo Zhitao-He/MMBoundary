@@ -10,7 +10,7 @@
 
 <sup>1 </sup>HKUST &nbsp; <sup>2 </sup> UMass Amherst &nbsp; <sup>3 </sup>USC
 
-[![ArXiv](https://img.shields.io/badge/arXiv-2502.xxx-B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/xxx)
+[![ArXiv](https://img.shields.io/badge/arXiv-2502.xxx-B31B1B.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.23224)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Hugging%20Face-blue)](https://huggingface.co/datasets/Zhitao-He/MMBoundary)
 
 </div>
@@ -215,14 +215,14 @@ python code/evaluation/eval.py
 ## Citation
 
 ```bibtex
-@misc{he2025mmboundary,
+@misc{he2025mmboundaryadvancingmllmknowledge,
       title={MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration}, 
-      author={Zhitao He and Sandeep Polisetty and Zhiyuan Fan and Yuchen Huang and Shijin Wu and Yi R. Fung},
+      author={Zhitao He and Sandeep Polisetty and Zhiyuan Fan and Yuchen Huang and Shujin Wu and Yi R. and Fung},
       year={2025},
-      eprint={2502.xxx},
+      eprint={2505.23224},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.xxx}, 
+      url={https://arxiv.org/abs/2505.23224}, 
 }
 ```
 
