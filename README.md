@@ -217,7 +217,7 @@ python code/evaluation/eval.py
 ```bibtex
 @misc{he2025mmboundaryadvancingmllmknowledge,
       title={MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration}, 
-      author={Zhitao He and Sandeep Polisetty and Zhiyuan Fan and Yuchen Huang and Shujin Wu and Yi R. and Fung},
+      author={Zhitao He and Sandeep Polisetty and Zhiyuan Fan and Yuchen Huang and Shujin Wu and Yi R. Fung},
       year={2025},
       eprint={2505.23224},
       archivePrefix={arXiv},
