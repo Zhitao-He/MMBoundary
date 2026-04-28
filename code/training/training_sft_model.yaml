@@ -1,0 +1,42 @@
+### MMBoundary SFT Configuration for LLaMA-Factory ###
+### Usage: llamafactory-cli train code/training/training_sft_model.yaml ###
+
+### Model ###
+model_name_or_path: llava-hf/llava-v1.6-mistral-7b-hf
+visual_inputs: true
+
+### Method ###
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 64
+lora_alpha: 16
+lora_dropout: 0.1
+lora_target: q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj
+
+### Dataset ###
+dataset: mmb_sft_data
+dataset_dir: data
+template: mistral
+cutoff_len: 2048
+preprocessing_num_workers: 16
+overwrite_cache: true
+
+### Training ###
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 4
+learning_rate: 1.0e-4
+num_train_epochs: 3
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+
+### Logging ###
+logging_steps: 10
+save_steps: 500
+save_total_limit: 3
+
+### Output ###
+output_dir: output/mmb_sft_llava
+report_to: tensorboard
